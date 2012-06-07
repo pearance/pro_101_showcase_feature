@@ -1,7 +1,7 @@
 name = Pro 101 Showcase Feature
 description = Slideshows in a variety of showcases.
 core = 7.x
-package = Features
+package = Pro 101 Features (G)
 version = 7.x-1.0
 project = pro_101_showcase_feature
 dependencies[] = cs_adaptive_image
