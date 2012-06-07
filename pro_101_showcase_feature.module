@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pro 101 Showcase Feature feature.
+ */
+
+include_once 'pro_101_showcase_feature.features.inc';
