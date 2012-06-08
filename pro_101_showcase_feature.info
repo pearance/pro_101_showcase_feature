@@ -11,6 +11,7 @@ dependencies[] = features
 dependencies[] = image
 dependencies[] = link
 dependencies[] = list
+dependencies[] = media
 dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = views

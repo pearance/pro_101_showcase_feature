@@ -861,7 +861,7 @@ function pro_101_showcase_feature_views_default_views() {
   $handler->display->display_options['fields']['field_title_graphic_1']['hide_alter_empty'] = 1;
   $handler->display->display_options['fields']['field_title_graphic_1']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_title_graphic_1']['settings'] = array(
-    'image_style' => 'small-thumbnail',
+    'image_style' => 'thumbnail-mini',
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_title_graphic_1']['field_api_classes'] = 0;
