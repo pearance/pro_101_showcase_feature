@@ -14,7 +14,7 @@ function pro_101_showcase_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'additional_settings__active_tab_featured';
-  $strongarm->value = 'edit-submission';
+  $strongarm->value = 'edit-rabbit-hole';
   $export['additional_settings__active_tab_featured'] = $strongarm;
 
   $strongarm = new stdClass;
