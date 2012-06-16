@@ -10,7 +10,7 @@
 function pro_101_showcase_feature_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-featured-field_subtitle'
+  // Exported field: 'node-featured-field_subtitle'.
   $fields['node-featured-field_subtitle'] = array(
     'field_config' => array(
       'active' => '1',
@@ -31,6 +31,7 @@ function pro_101_showcase_feature_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -75,7 +76,7 @@ function pro_101_showcase_feature_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-featured-field_title_graphic'
+  // Exported field: 'node-featured-field_title_graphic'.
   $fields['node-featured-field_title_graphic'] = array(
     'field_config' => array(
       'active' => '1',
@@ -96,6 +97,7 @@ function pro_101_showcase_feature_field_default_fields() {
           0 => 'fid',
         ),
       ),
+      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -137,6 +139,7 @@ function pro_101_showcase_feature_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'alt_field' => 1,
+        'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png gif jpg jpeg',
         'max_filesize' => '',
@@ -178,7 +181,7 @@ function pro_101_showcase_feature_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-featured-field_url'
+  // Exported field: 'node-featured-field_url'.
   $fields['node-featured-field_url'] = array(
     'field_config' => array(
       'active' => '1',
@@ -188,6 +191,7 @@ function pro_101_showcase_feature_field_default_fields() {
       'field_name' => 'field_url',
       'foreign keys' => array(),
       'indexes' => array(),
+      'locked' => '0',
       'module' => 'link',
       'settings' => array(
         'attributes' => array(
@@ -265,7 +269,7 @@ function pro_101_showcase_feature_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-featured-field_weight'
+  // Exported field: 'node-featured-field_weight'.
   $fields['node-featured-field_weight'] = array(
     'field_config' => array(
       'active' => '1',
@@ -279,6 +283,7 @@ function pro_101_showcase_feature_field_default_fields() {
           0 => 'value',
         ),
       ),
+      'locked' => '0',
       'module' => 'list',
       'settings' => array(
         'allowed_values' => array(

@@ -124,27 +124,6 @@ function pro_101_showcase_feature_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'rabbit_hole_action_featured';
-  $strongarm->value = '2';
-  $export['rabbit_hole_action_featured'] = $strongarm;
-
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'rabbit_hole_redirect_featured';
-  $strongarm->value = '';
-  $export['rabbit_hole_redirect_featured'] = $strongarm;
-
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'rabbit_hole_redirect_response_featured';
-  $strongarm->value = '301';
-  $export['rabbit_hole_redirect_response_featured'] = $strongarm;
-
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'save_continue_featured';
   $strongarm->value = 'Save and add fields';
   $export['save_continue_featured'] = $strongarm;

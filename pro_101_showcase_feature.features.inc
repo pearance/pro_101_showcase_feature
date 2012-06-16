@@ -27,7 +27,7 @@ function pro_101_showcase_feature_views_api() {
 function pro_101_showcase_feature_image_default_styles() {
   $styles = array();
 
-  // Exported image style: showcase-wide
+  // Exported image style: showcase-wide.
   $styles['showcase-wide'] = array(
     'name' => 'showcase-wide',
     'effects' => array(
@@ -49,7 +49,7 @@ function pro_101_showcase_feature_image_default_styles() {
     ),
   );
 
-  // Exported image style: thumbnail-mini
+  // Exported image style: thumbnail-mini.
   $styles['thumbnail-mini'] = array(
     'name' => 'thumbnail-mini',
     'effects' => array(
