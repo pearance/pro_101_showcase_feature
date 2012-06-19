@@ -13,16 +13,11 @@ function pro_101_showcase_feature_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'additional_settings__active_tab_featured';
-  $strongarm->value = 'edit-rabbit-hole';
-  $export['additional_settings__active_tab_featured'] = $strongarm;
-
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'auto_menutitle_featured';
-  $strongarm->value = 0;
-  $export['auto_menutitle_featured'] = $strongarm;
+  $strongarm->name = 'contentanalysis_featured';
+  $strongarm->value = array(
+    0 => 'enable',
+  );
+  $export['contentanalysis_featured'] = $strongarm;
 
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
