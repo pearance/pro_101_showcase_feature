@@ -34,6 +34,7 @@ features[user_permission][] = delete own featured content
 features[user_permission][] = edit any featured content
 features[user_permission][] = edit own featured content
 features[variable][] = contentanalysis_featured
+features[variable][] = contentanalysis_type_featured_enable
 features[variable][] = enable_revisions_page_featured
 features[variable][] = field_bundle_settings_node__featured
 features[variable][] = maxlength_js_featured
