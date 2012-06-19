@@ -51,4 +51,5 @@ features[variable][] = rh_node_redirect_response_featured
 features[variable][] = save_continue_featured
 features[variable][] = show_diff_inline_featured
 features[variable][] = show_preview_changes_featured
+features[variable][] = xmlsitemap_settings_node_featured
 features[views_view][] = showcase
