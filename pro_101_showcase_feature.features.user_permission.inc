@@ -14,7 +14,8 @@ function pro_101_showcase_feature_user_default_permissions() {
   $permissions['create featured content'] = array(
     'name' => 'create featured content',
     'roles' => array(
-      0 => 'support',
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'node',
   );
@@ -23,7 +24,8 @@ function pro_101_showcase_feature_user_default_permissions() {
   $permissions['delete any featured content'] = array(
     'name' => 'delete any featured content',
     'roles' => array(
-      0 => 'support',
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'node',
   );
@@ -32,7 +34,8 @@ function pro_101_showcase_feature_user_default_permissions() {
   $permissions['delete own featured content'] = array(
     'name' => 'delete own featured content',
     'roles' => array(
-      0 => 'support',
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'node',
   );
@@ -41,7 +44,8 @@ function pro_101_showcase_feature_user_default_permissions() {
   $permissions['edit any featured content'] = array(
     'name' => 'edit any featured content',
     'roles' => array(
-      0 => 'support',
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'node',
   );
@@ -50,7 +54,8 @@ function pro_101_showcase_feature_user_default_permissions() {
   $permissions['edit own featured content'] = array(
     'name' => 'edit own featured content',
     'roles' => array(
-      0 => 'support',
+      0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'node',
   );
