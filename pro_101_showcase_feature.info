@@ -44,6 +44,7 @@ features[variable][] = menu_parent_featured
 features[variable][] = node_options_featured
 features[variable][] = node_preview_featured
 features[variable][] = node_submitted_featured
+features[variable][] = nodeformscols_field_placements_featured_default
 features[variable][] = pathauto_node_featured_pattern
 features[variable][] = rh_node_action_featured
 features[variable][] = rh_node_redirect_featured
