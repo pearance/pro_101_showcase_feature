@@ -54,6 +54,9 @@ function pro_101_showcase_feature_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'colorbox' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
