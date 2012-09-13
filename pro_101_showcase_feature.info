@@ -54,6 +54,7 @@ features[variable][] = node_preview_featured
 features[variable][] = node_submitted_featured
 features[variable][] = nodeblock_comment_link_featured
 features[variable][] = nodeblock_featured
+features[variable][] = nodeblock_node_link_featured
 features[variable][] = nodeblock_view_mode_featured
 features[variable][] = nodeformscols_field_placements_featured_default
 features[variable][] = pathauto_node_featured_pattern

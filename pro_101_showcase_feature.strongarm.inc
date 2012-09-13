@@ -176,6 +176,13 @@ function pro_101_showcase_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_node_link_featured';
+  $strongarm->value = '0';
+  $export['nodeblock_node_link_featured'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'nodeblock_view_mode_featured';
   $strongarm->value = 'full';
   $export['nodeblock_view_mode_featured'] = $strongarm;
