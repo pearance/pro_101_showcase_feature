@@ -234,8 +234,8 @@ function pro_101_showcase_feature_strongarm() {
       'hidden' => 0,
     ),
     'field_weight' => array(
-      'region' => 'right',
-      'weight' => '2',
+      'region' => 'main',
+      'weight' => '4',
       'has_required' => TRUE,
       'title' => 'Feature Weight',
     ),
