@@ -35,7 +35,6 @@ function pro_101_showcase_feature_user_default_permissions() {
     'name' => 'delete own featured content',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'node',
   );
