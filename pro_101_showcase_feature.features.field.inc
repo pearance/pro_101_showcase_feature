@@ -52,7 +52,10 @@ function pro_101_showcase_feature_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'text_default',
           'weight' => '1',
         ),
@@ -130,6 +133,8 @@ function pro_101_showcase_feature_field_default_fields() {
           'label' => 'above',
           'module' => 'image',
           'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
             'image_link' => '',
             'image_style' => '',
           ),
@@ -140,6 +145,8 @@ function pro_101_showcase_feature_field_default_fields() {
           'label' => 'hidden',
           'module' => 'image',
           'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
             'image_link' => 'content',
             'image_style' => 'featured_large',
           ),
@@ -175,11 +182,11 @@ function pro_101_showcase_feature_field_default_fields() {
             'public' => 'public',
           ),
           'allowed_types' => array(
-            'audio' => 0,
-            'default' => 0,
-            0 => 0,
             'image' => 'image',
             'video' => 0,
+            0 => 0,
+            'audio' => 0,
+            'default' => 0,
           ),
           'browser_plugins' => array(
             'library' => 0,
@@ -251,7 +258,10 @@ function pro_101_showcase_feature_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'link',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'link_default',
           'weight' => '2',
         ),
@@ -341,7 +351,10 @@ function pro_101_showcase_feature_field_default_fields() {
         'default' => array(
           'label' => 'above',
           'module' => 'list',
-          'settings' => array(),
+          'settings' => array(
+            'diff_custom' => 0,
+            'diff_custom_settings' => array(),
+          ),
           'type' => 'list_default',
           'weight' => '3',
         ),
