@@ -68,6 +68,7 @@ features[variable][] = rh_node_action_featured
 features[variable][] = rh_node_redirect_featured
 features[variable][] = rh_node_redirect_response_featured
 features[variable][] = save_continue_featured
+features[variable][] = savedraft_featured
 features[variable][] = show_diff_inline_featured
 features[variable][] = show_preview_changes_featured
 features[variable][] = workbench_moderation_default_state_featured
