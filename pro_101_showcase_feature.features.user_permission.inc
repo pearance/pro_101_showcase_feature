@@ -59,5 +59,68 @@ function pro_101_showcase_feature_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: enter featured revision log entry.
+  $permissions['enter featured revision log entry'] = array(
+    'name' => 'enter featured revision log entry',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured authored by option.
+  $permissions['override featured authored by option'] = array(
+    'name' => 'override featured authored by option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured authored on option.
+  $permissions['override featured authored on option'] = array(
+    'name' => 'override featured authored on option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured promote to front page option.
+  $permissions['override featured promote to front page option'] = array(
+    'name' => 'override featured promote to front page option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured published option.
+  $permissions['override featured published option'] = array(
+    'name' => 'override featured published option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured revision option.
+  $permissions['override featured revision option'] = array(
+    'name' => 'override featured revision option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override featured sticky option.
+  $permissions['override featured sticky option'] = array(
+    'name' => 'override featured sticky option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
   return $permissions;
 }
